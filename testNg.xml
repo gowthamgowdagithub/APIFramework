@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mySuite">
+<listeners>
+<listener class-name="com.training.Utilities.TestListener"></listener>
+</listeners>
+<test name="MyTest1">
+<classes>
+<class name="com.training.Test.gitHubAutomation"></class>
+</classes>
+</test>
+</suite>
